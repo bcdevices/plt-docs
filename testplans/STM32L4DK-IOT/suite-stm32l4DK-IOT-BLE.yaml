@@ -1,0 +1,18 @@
+title: "LY10-PLT demo: stm32 DK IoT node"
+suite:
+  - ident: ICT-T1
+    title: Erase stm32l4_DevKit with USB ST-Link
+    steps:
+      - command: erase stm32l4_DevKit
+  - ident: ICT-T2
+    title: Program STM32L4-IOT-BLE stm32l4_DevKit with USB ST-Link
+    steps:
+      - command: program stm32l4_DevKit none,/opt/dutfw/STM32L4_IOT_HR.elf,none
+  - ident: ICT-T3
+    title: Identify DUT
+    steps:
+      - command: identify stm32l4_IoT_DevKit
+  - ident: ICT-T4
+    title: BLE discovery
+    steps:
+      - command: bledis %BLEMAC% 30  # Wait up to 30 seconds for BLE discovery to complete
