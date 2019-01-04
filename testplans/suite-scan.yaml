@@ -1,0 +1,6 @@
+title: "LY10-PLT demo: Scan"
+suite:
+  - ident: SCAN-T1
+    title: Scan MAC address
+    steps:
+      - command: scan MAC_ADDRESS
