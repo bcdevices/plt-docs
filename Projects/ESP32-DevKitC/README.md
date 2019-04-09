@@ -1,6 +1,6 @@
 # Test Plans for Espressif ESP32-DevKitC modules
 
-- [esp32-identify-uart0.yaml]: Identify ESP32 over UART0
+- [esp32-identify-uart0.yaml](esp32-identify-uart0.yaml): Identify ESP32 over UART0
 
 ## PLT-200A connection
 
