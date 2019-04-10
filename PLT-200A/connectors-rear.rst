@@ -43,7 +43,7 @@ DUT JTAG Probe connector
 - PLT-200A: J11 (CnC Tech 3020-10-0200-00)
 
 =======  ===================  ==================
-Pin      Cortex Debug Signal  Description
+Pin      JTAG Signal          Description
 =======  ===================  ==================
 1        +3V3                 Debug Rail Voltage
 2        JTAG_TMS             Test Mode Select
