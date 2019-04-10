@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="578.75 46 661.75 474.5" width="661.75" height="474.5">
+    <g fill="none">
+        <path fill="#fff" d="M578.75 46h661.75v474.5H578.75z"/>
+        <path d="M616.003 191.234h40.674v227.367H644.34L669.67 470 695 418.601h-12.338v-264.06h-66.659V95.53h13.908L604.58 46.5l-25.33 49.032h13.908v106.297H579.25l25.33 49.031 25.33-49.031h-13.907z" fill="#ffc0ff"/>
+        <path d="M616.003 191.234h40.674v227.367H644.34L669.67 470 695 418.601h-12.338v-264.06H670.99h0-54.987V95.53h13.908L604.58 46.5l-25.33 49.032h13.908v106.297H579.25l25.33 49.031 25.33-49.031h-13.907z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="translate(584.25 164.05)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="10.488" y="15">DDTP00..08</tspan>
+        </text>
+        <path d="M784.688 46.5l24.687 48.105H795.82v327.29h13.555L784.687 470 760 421.895h13.555V94.605H760z" fill="#ffc0ff"/>
+        <path d="M784.688 46.5l24.687 48.105H795.82v327.29h13.555L784.687 470 760 421.895h13.555V94.605H760z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="rotate(90 371.344 422.844)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="164.363" y="15">DDTP09..14</tspan>
+        </text>
+        <path d="M938 474.25h-45c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12h45c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" fill="#40ffff"/>
+        <path d="M938 474.25h-45c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12h45c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="translate(886 487.625)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="2.395" y="15">Voltage</tspan>
+        </text>
+        <path d="M726 46.5l26 48.105h-14.275v327.29H752L726 470l-26-48.105h14.275V94.605H700z" fill="#ffc0ff"/>
+        <path d="M726 46.5l26 48.105h-14.275v327.29H752L726 470l-26-48.105h14.275V94.605H700z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="rotate(90 342 393.5)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="166.789" y="15">RDTP00.31</tspan>
+        </text>
+        <path d="M863 474.25H659.125c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H863c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" fill="#ff80ff"/>
+        <path d="M863 474.25H659.125c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H863c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="translate(652.125 487.625)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="86.414" y="15">Digital</tspan>
+        </text>
+        <path d="M993 280H827.25c-6.627 0-12 5.373-12 12v18c0 6.627 5.373 12 12 12H993c6.627 0 12-5.373 12-12v-18c0-6.627-5.373-12-12-12z" fill="#c0c0ff"/>
+        <path d="M993 280H827.25c-6.627 0-12 5.373-12 12v18c0 6.627 5.373 12 12 12H993c6.627 0 12-5.373 12-12v-18c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="translate(820.25 289)" fill="#000">
+            <tspan font-family="Roboto" font-size="20" font-weight="400" x="16.486" y="19">UART/TP Switch</tspan>
+        </text>
+        <path d="M845.375 49l25.875 50H855v131h16.25l-25.875 50-25.875-50h16.25V99H819.5z" fill="#ffc0ff"/>
+        <path d="M845.375 49l25.875 50H855v131h16.25l-25.875 50-25.875-50h16.25V99H819.5z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="rotate(90 400.438 454.438)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="68.117" y="15">DDTP15..16</tspan>
+        </text>
+        <path d="M905 50h18.42v180H940l-25.79 50-25.79-50H905z" fill="#ffffc0"/>
+        <path d="M905 50h18.42v180H940l-25.79 50-25.79-50H905z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="rotate(90 434.355 489.355)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="68.121" y="15">DATP08..09</tspan>
+        </text>
+        <path d="M973.949 50L1000 98.105h-14.303v133.79H1000L973.949 280l-26.052-48.105h14.304V98.105h-14.304z" fill="#c0ffc0"/>
+        <path d="M973.949 50L1000 98.105h-14.303v133.79H1000L973.949 280l-26.052-48.105h14.304V98.105h-14.304z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="rotate(90 464.224 519.224)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="85.801" y="15">UART0</tspan>
+        </text>
+        <path d="M845.375 326L875 376h-20v44h20l-29.625 50-29.625-50h20v-44h-20z" fill="#ffc0ff"/>
+        <path d="M845.375 326L875 376h-20v44h20l-29.625 50-29.625-50h20v-44h-20z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="rotate(90 261.938 592.938)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="24.617" y="15">DDTP15..16</tspan>
+        </text>
+        <path d="M906 322.75h19V420h17.25l-26.75 50-26.75-50H906z" fill="#ffffc0"/>
+        <path d="M906 322.75h19V420h17.25l-26.75 50-26.75-50H906z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="rotate(90 298.625 626.375)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="26.746" y="15">DATP08..09</tspan>
+        </text>
+        <path d="M1048 474.25h-82.375c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H1048c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" fill="#40ff40"/>
+        <path d="M1048 474.25h-82.375c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H1048c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="translate(958.625 487.625)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="10.996" y="15">UART(SPI)</tspan>
+        </text>
+        <g>
+            <path d="M973.949 324l27.625 50H985v46h16.574l-27.625 50-27.625-50h16.573v-46h-16.573z" fill="#c0ffc0"/>
+            <path d="M973.949 324l27.625 50H985v46h16.574l-27.625 50-27.625-50h16.573v-46h-16.573z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="rotate(90 327.224 656.224)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="43.801" y="15">UART0</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M1033.107 50L1060 100h-15v320h15l-26.893 50-26.893-50h15V100h-15z" fill="#c0ffc0"/>
+            <path d="M1033.107 50L1060 100h-15v320h15l-26.893 50-26.893-50h15V100h-15z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="rotate(90 493.803 548.803)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="180.801" y="15">UART1</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M1091.813 50l24.624 50H1100v320h16.438l-24.626 50-24.624-50h16.437V100h-16.438z" fill="#c0ffc0"/>
+            <path d="M1091.813 50l24.624 50H1100v320h16.438l-24.626 50-24.624-50h16.437V100h-16.438z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="rotate(90 523.156 578.156)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="187.91" y="15">SWD</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M1151.813 50l24.812 50H1160v320h16.625l-24.813 50L1127 420h16.625V100H1127z" fill="#c0ffc0"/>
+            <path d="M1151.813 50l24.812 50H1160v320h16.625l-24.813 50L1127 420h16.625V100H1127z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="rotate(90 553.156 608.156)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="185.496" y="15">JTAG</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M1108 474.25h-32.375c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H1108c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" fill="#40ff40"/>
+            <path d="M1108 474.25h-32.375c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H1108c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="translate(1068.625 487.625)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="6.098" y="15">SWD</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M1168 474.25h-32.375c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H1168c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" fill="#40ff40"/>
+            <path d="M1168 474.25h-32.375c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H1168c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="translate(1128.625 487.625)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="3.684" y="15">JTAG</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M1228 474.25h-32.375c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H1228c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" fill="#40ff40"/>
+            <path d="M1228 474.25h-32.375c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H1228c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="translate(1188.625 487.625)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="7.059" y="15">CAN</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M1211.563 50l21.562 49.093H1220V420h13.125l-21.563 49.093L1190 420h13.125V99.093H1190z" fill="#c0ffc0"/>
+            <path d="M1211.563 50l21.562 49.093H1220V420h13.125l-21.563 49.093L1190 420h13.125V99.093H1190z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="rotate(90 583.031 638.031)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="188.417" y="15">CAN</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
