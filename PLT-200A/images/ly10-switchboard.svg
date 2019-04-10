@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-43 46 918.5 474.5" width="918.5" height="474.5">
+    <g fill="none">
+        <path fill="#fff" d="M-43 46h918.5v474.5H-43z"/>
+        <path d="M630 249H309c-6.627 0-12 5.373-12 12v57c0 6.627 5.373 12 12 12h321c6.627 0 12-5.373 12-12v-57c0-6.627-5.373-12-12-12z" fill="#c0c0ff"/>
+        <path d="M630 249H309c-6.627 0-12 5.373-12 12v57c0 6.627 5.373 12 12 12h321c6.627 0 12-5.373 12-12v-57c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="translate(302 277.5)" fill="#000">
+            <tspan font-family="Roboto" font-size="20" font-weight="400" x="111.934" y="19">Switchboard</tspan>
+        </text>
+        <path d="M194.5 238H117c-6.627 0-12 5.373-12 12v73c0 6.627 5.373 12 12 12h77.5c6.627 0 12-5.373 12-12v-73c0-6.627-5.373-12-12-12z" fill="#c0c0ff"/>
+        <path d="M194.5 238H117c-6.627 0-12 5.373-12 12v73c0 6.627 5.373 12 12 12h77.5c6.627 0 12-5.373 12-12v-73c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="translate(110 262.5)" fill="#000">
+            <tspan font-family="Roboto" font-size="20" font-weight="400" x="18.396" y="19">Signal </tspan> <tspan font-family="Roboto" font-size="20" font-weight="400" x="16.614" y="43">Relays</tspan>
+        </text>
+        <path d="M242.762 296.916v134.591H223.75l28 38.493 28-38.493h-19.012V296.916h13.278v12.276L297 290.096 274.016 271v12.276h-44.532V271L206.5 290.096l22.984 19.096v-12.276z" fill="#ffffc0"/>
+        <path d="M242.762 296.916v134.591H223.75l28 38.493 28-38.493h-19.012V296.916h13.278v12.276L297 290.096 274.016 271v12.276h-44.532V271L206.5 290.096l22.984 19.096v-12.276z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="rotate(90 -7.375 268.625)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="64.117" y="15">MUX0..3</tspan>
+        </text>
+        <path d="M406.625 46.5l29.625 48.105h-16.266v104.29h16.266L406.625 247 377 198.895h16.266V94.605H377z" fill="#ffffc0"/>
+        <path d="M406.625 46.5l29.625 48.105h-16.266v104.29h16.266L406.625 247 377 198.895h16.266V94.605H377z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="rotate(90 182.313 233.813)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="53.375" y="15">DATP00..06</tspan>
+        </text>
+        <path d="M472.375 46.5L502 94.605h-16.266v104.29H502L472.375 247l-29.625-48.105h16.266V94.605H442.75z" fill="#ffffc0"/>
+        <path d="M472.375 46.5L502 94.605h-16.266v104.29H502L472.375 247l-29.625-48.105h16.266V94.605H442.75z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        <text transform="rotate(90 215.188 266.688)" fill="#000">
+            <tspan font-family="Roboto" font-size="16" font-weight="400" x="53.609" y="15">RATP00..15</tspan>
+        </text>
+        <g>
+            <path d="M616.003 191.234h40.674v227.367H644.34L669.67 470 695 418.601h-12.338v-264.06h-66.659V95.53h13.908L604.58 46.5 579.25 95.532h13.908v106.297H579.25l25.33 49.031 25.33-49.031h-13.907z" fill="#ffc0ff"/>
+            <path d="M616.003 191.234h40.674v227.367H644.34L669.67 470 695 418.601h-12.338v-264.06H670.99h0-54.987V95.53h13.908L604.58 46.5 579.25 95.532h13.908v106.297H579.25l25.33 49.031 25.33-49.031h-13.907z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="translate(584.25 164.05)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="10.488" y="15">DDTP00..08</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M538.125 46.5l29.625 48.105h-16.266v104.29h16.266L538.125 247 508.5 198.895h16.266V94.605H508.5z" fill="#ffffc0"/>
+            <path d="M538.125 46.5l29.625 48.105h-16.266v104.29h16.266L538.125 247 508.5 198.895h16.266V94.605H508.5z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="rotate(90 248.062 299.563)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="53.613" y="15">RATP16..31</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M499.61 331.734l-17.863 34.81a1 1 0 0 0 .89 1.456h7.113a1 1 0 0 1 1 1v67a1 1 0 0 1-1 1h-7.113a1 1 0 0 0-.89 1.457l17.863 34.81a1 1 0 0 0 1.78 0l17.863-34.81a1 1 0 0 0-.89-1.457h-7.113a1 1 0 0 1-1-1v-67a1 1 0 0 1 1-1h7.113a1 1 0 0 0 .89-1.457l-17.863-34.81a1 1 0 0 0-1.78 0z" fill="#ffffc0"/>
+            <path d="M499.61 331.734l-17.863 34.81a1 1 0 0 0 .89 1.456h7.113a1 1 0 0 1 1 1v67a1 1 0 0 1-1 1h-7.113a1 1 0 0 0-.89 1.457l17.863 34.81a1 1 0 0 0 1.78 0l17.863-34.81a1 1 0 0 0-.89-1.457h-7.113a1 1 0 0 1-1-1v-67a1 1 0 0 1 1-1h7.113a1 1 0 0 0 .89-1.457l-17.863-34.81a1 1 0 0 0-1.78 0z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="rotate(90 87.5 422.5)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="30.223" y="15">RA/RVREF</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M283 474.25h-61c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12h61c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" fill="#40ffff"/>
+            <path d="M283 474.25h-61c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12h61c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="translate(215 487.625)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="10.395" y="15">Voltage</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M539.5 474.25h-74c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12h74c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" fill="#0ff"/>
+            <path d="M539.5 474.25h-74c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12h74c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="translate(458.5 487.625)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="4.383" y="15">Impedance</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M53 474.25h-66c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12h66c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" fill="#0ff"/>
+            <path d="M53 474.25h-66c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12h66c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="translate(-20 487.625)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="13.777" y="15">Current</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M15.5 336H24a1 1 0 0 1 1 1v97a1 1 0 0 0 1 1h16.705a1 1 0 0 1 .85 1.526l-22.955 37.1a1 1 0 0 1-1.7 0l-22.956-37.1a1 1 0 0 1 .85-1.526H13.5a1 1 0 0 0 1-1v-97a1 1 0 0 1 1-1z" fill="#ffc0c0"/>
+            <path d="M15.5 336H24a1 1 0 0 1 1 1v97a1 1 0 0 0 1 1h16.705a1 1 0 0 1 .85 1.526l-22.955 37.1a1 1 0 0 1-1.7 0l-22.956-37.1a1 1 0 0 1 .85-1.526H13.5a1 1 0 0 0 1-1v-97a1 1 0 0 1 1-1z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+            <path d="M68 238h-98.5c-6.627 0-12 5.373-12 12v73c0 6.627 5.373 12 12 12H68c6.627 0 12-5.373 12-12v-73c0-6.627-5.373-12-12-12z" fill="#ff8080"/>
+            <path d="M68 238h-98.5c-6.627 0-12 5.373-12 12v73c0 6.627 5.373 12 12 12H68c6.627 0 12-5.373 12-12v-73c0-6.627-5.373-12-12-12 0 0 0 0 0 0z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="translate(-37.5 274.5)" fill="#000">
+                <tspan font-family="Roboto" font-size="20" font-weight="400" x="28.105" y="19">Power</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M26.971 179.495h300.764v35.979c0 .581-.221 1.053-.495 1.053h-4.731c-.274 0-.495.471-.495 1.052 0 .235.037.462.104.647l11.226 30.739c.168.459.479.541.694.184.033-.053.062-.115.087-.184l11.226-30.74c.168-.458.13-1.12-.086-1.477-.087-.143-.194-.221-.304-.221h-4.732c-.273 0-.494-.472-.494-1.053v-35.979h.057V151.07H26.972v-38.953h7.323L19.648 50 5 112.116h7.324v122.652H26.97z" fill="#ffc0c0"/>
+            <path d="M26.971 179.495h300.764v35.979c0 .581-.221 1.053-.495 1.053h-4.731c-.274 0-.495.471-.495 1.052 0 .235.037.462.104.647l11.226 30.739c.168.459.479.541.694.184.033-.053.062-.115.087-.184l11.226-30.74c.168-.458.13-1.12-.086-1.477-.087-.143-.194-.221-.304-.221h-4.732c-.273 0-.494-.472-.494-1.053v-35.979h.057V151.07H26.972v-38.953h7.323L19.648 50 5 112.116h7.324v122.652H26.97z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="translate(10 154.142)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="98.021" y="15">3V3, 5V, VARV/12V</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M863 474.25H659.125c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H863c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" fill="#ff80ff"/>
+            <path d="M863 474.25H659.125c-6.627 0-12 5.373-12 12V508c0 6.627 5.373 12 12 12H863c6.627 0 12-5.373 12-12v-21.75c0-6.627-5.373-12-12-12z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+            <text transform="translate(652.125 487.625)" fill="#000">
+                <tspan font-family="Roboto" font-size="16" font-weight="400" x="86.414" y="15">Digital</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
