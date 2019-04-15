@@ -1,0 +1,15 @@
+title: "Program CC1352R1 through JTAG"
+suite:
+- ident: ICT-T1
+  title: Power ON
+  steps:
+  - command: power JTAG on
+  - command: sleepms 500
+- ident: ICT-T2
+  title: Program CC1352
+  steps:
+  - command: program CC1352 sensor_default_cc1352r1lp.hex,none,none
+- ident: ICT-T3
+  title: Power off
+  steps:
+  - command: power off
