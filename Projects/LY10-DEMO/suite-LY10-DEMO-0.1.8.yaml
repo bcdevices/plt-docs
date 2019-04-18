@@ -1,5 +1,9 @@
 title: "v0.1.8 (Green)"
 suite:
+  - ident: ICT-T0
+    title: Power on
+    steps:
+      - command: power SWD on
   - ident: ICT-T1
     title: Identify DUT
     steps:
@@ -16,3 +20,7 @@ suite:
     title: BLE discovery
     steps:
       - command: bledis %BLEMAC% 30  # Wait up to 30 seconds for BLE discovery to complete
+  - ident: ICT-T5
+    title: Power off
+    steps:
+      - command: power off
