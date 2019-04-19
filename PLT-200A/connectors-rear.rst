@@ -4,6 +4,10 @@ Probe and Fixture connectors
 DUT UART/Analog Probe connector
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. figure:: images/idc6-drawing.svg
+
+   Face view of UART0/TP receptacle (J9) on PLT rear
+
 - TC2030-IDC, 6-pin Tag-Connect (UART)
 - PLT200A: J9 (CnC Tech 3020-06-0200-00)
 
@@ -20,6 +24,10 @@ Pin      UART Signal     Alt      Description
 
 DUT SWD Probe connector
 ^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: images/idc6-drawing.svg
+
+   Face view of SWD receptacle (J8) on PLT rear
 
 - TC2030-IDC, 6-pin Tag-Connect (SWD)
 - PLT200A: J8 (CnC Tech 3020-06-0200-00)
@@ -38,6 +46,10 @@ Pin      SWD Signal   Description
 
 DUT JTAG Probe connector
 ^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: images/idc10-drawing.svg
+
+   Face view of JTAG receptacle (J11) on PLT rear
 
 - TC2050-IDC, 10-pin Tag-Connect
 - PLT-200A: J11 (CnC Tech 3020-10-0200-00)
