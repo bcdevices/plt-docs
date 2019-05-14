@@ -1,0 +1,7 @@
+title: "Write NFC"
+suite:
+- ident: NFC-1
+  title: Write NFC
+  steps:
+    - command: define CODE 123
+    - command: nfc write NTAG213 text:"Sample Text" text:%CODE%
