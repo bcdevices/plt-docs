@@ -7,7 +7,7 @@ suite:
   - ident: ICT-T2
     title: Program STM32L4-IOT-BLE stm32l4_DevKit with USB ST-Link
     steps:
-      - command: program stm32l4_DevKit none,/opt/dutfw/STM32L4_IOT_HR.elf,none
+      - command: program stm32l4_DevKit none,STM32L4_IOT_HR.elf,none
   - ident: ICT-T3
     title: Identify DUT
     steps:
