@@ -19,3 +19,11 @@ Example BLE firmware and PLT test plans for the LY10-DEMO board.
 Not included (available from Nordic):
 
 - `s132_nrf52_6.0.0_softdevice.hex`: BLE stack, required for ly10-demo-fw (but not for ly10-zephyr-fw)
+
+## PLT-200A connection
+
+For the `suite-LY10-....yaml` test plans, use a Tag-Connect TC-2030-IDC programming cable plugged
+into the SWD port on the rear of the PLT-200A.
+
+The `ICT....yaml` test plans are meant for use with the PLT ICT fixture equipped with
+a LY10-DEMO Pogo-Pin Cassette (PPC).

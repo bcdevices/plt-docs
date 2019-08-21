@@ -1,5 +1,8 @@
 # Test Plans for Espressif ESP32-DevKitC modules
 
+Example PLT test plan for Espressif's
+**ESP32-DevKitC** development board.
+
 - [esp32-identify-uart0.yaml](esp32-identify-uart0.yaml): Identify ESP32 over UART0
 
 ## PLT-200A connection
@@ -15,3 +18,7 @@
 | UART0\_VDD    | 5           | ESP32:3V3         |
 | GND           | 6           | ESP32:GND         |
 | GND           | 6           | ESP32:GPIO0       |
+
+## References
+
+- [ESP32-DevKitC - Espressif Systems](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview)
