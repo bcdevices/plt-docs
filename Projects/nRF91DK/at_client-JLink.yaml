@@ -1,0 +1,10 @@
+title: "Program nRF91 DK (Cortex-M33)"
+suite:
+  - ident: ICT-T1
+    title: Identify DUT
+    steps:
+      - command: identify nRF91_DevKit
+  - ident: ICT-T2
+    title: Program Cortex-M33 through USB-attached JLink programmer
+    steps:
+      - command: program nRF91_DevKit none,zephyr-nrf9160-at_client.hex,none
