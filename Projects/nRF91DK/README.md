@@ -1,6 +1,6 @@
-# Test plans for nRF52DK
+# Test plans for nRF9160 DK
 
-Example project targeting Nordic's **nRF91 DK** development kit.
+Example project targeting Nordic's **nRF9160 DK** development kit.
 
 - [nrf52832\_xxaa.hex](nrf52832_xxaa.hex): ble\_app\_hrs firmware (nRF52 SDK example
 - [at\_client-JLink.yaml](at_client-JLink.yaml): PLT test plan to program nRF91 DK via USB (JLink)
