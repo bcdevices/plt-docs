@@ -1,9 +1,12 @@
 # Test Plans for Atmel AVR ATmega168P/PB
 
+Example firmware and PLT test plans for Microchip's
+**ATmega168PB Xplained Mini** evaluation kit.
+
 - [8led\_1hz.hex](8led_1hz.hex): Example firmware for ATmega168P/PB
 - [atmega168pb-XPmini-erase.yaml](atmega168pb-XPmini-erase.yaml): Test plan to erase ATmega168PB Xplained Mini DevKit
 - [atmega168pb-XPmini-program.yaml](atmega168pb-XPmini-program.yaml): Test plan to program ATmega168PB Xplained Mini DevKit
-- [atmega168pb-erase.yaml](atmega168pb-erase.yaml): Test plan to erase ATmega168PB 
+- [atmega168pb-erase.yaml](atmega168pb-erase.yaml): Test plan to erase ATmega168PB
 - [atmega168pb-program.yaml](atmega168pb-program.yaml): Test plan to program ATmega168PB
 
 ## PLT-200A connection
@@ -24,3 +27,7 @@ the ATmega168 as below:
 | 4                 | JTAG\_TCK        | SCK          | 3       | PB5     |
 | 6                 | JTAG\_TDO        | MISO         | 1       | PB4     |
 | 8                 | JTAG\_TDI        | MOSI         | 4       | PB3     |
+
+## References
+
+- [Microchip Technology: ATmega168PB Xplained Mini](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/ATMEGA168PB-XMINI)
