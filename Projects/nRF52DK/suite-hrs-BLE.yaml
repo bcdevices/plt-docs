@@ -1,17 +1,17 @@
-title: "Demo1: nRF52DK"
+title: "Program and Test nRF52DK"
 suite:
   - ident: ICT-T1
-    title: Identify DUT
+    title: Identify nRF52 through USB JLink
     steps:
-      - command: identify nRF52_DevKit
+      - command: identify nRF52_JLink
   - ident: ICT-T2
-    title: Erase
+    title: Erase nRF52 through USB JLink
     steps:
-      - command: erase nRF52_DevKit
+      - command: erase nRF52_JLink
   - ident: ICT-T3
-    title: Program
+    title: Program nRF52 through USB JLink
     steps:
-      - command: program nRF52_DevKit s132_nrf52_6.0.0_softdevice.hex,nrf52832_xxaa.hex,none
+      - command: program nRF52_JLink s132_nrf52_6.0.0_softdevice.hex,nrf52832_xxaa.hex,none
   - ident: ICT-T4
     title: BLE discovery
     steps:
