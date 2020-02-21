@@ -1,0 +1,42 @@
+title: "Test AT GSM modem"
+suite:
+  - ident: AT-T1
+    title: Attention
+    steps:
+      - uartcmd: uart UART0
+        expect: "OK"
+        send: "AT\r\n"
+      - uartcmd: uart UART0
+        expect: "OK"
+        send: "ATE0\r\n"
+      - uartcmd: uart UART0
+        expect: "OK"
+        send: "AT+CMEE=1\r\n"
+  - ident: AT-T2
+    title: Retrieve Manufacturer
+    steps:
+      - uartcmd: uart UART0
+        extract: "\r\n(.*)\r\n\r\nOK\r\n"
+        extractKey: MODEM_MFN
+        send: "AT+CGMI\r\n"
+  - ident: AT-T3
+    title: Retrieve Model
+    steps:
+      - uartcmd: uart UART0
+        extract: "\r\n(.*)\r\n\r\nOK\r\n"
+        extractKey: MODEM_MODEL
+        send: "AT+CGMM\r\n"
+  - ident: AT-T4
+    title: Retrieve Revision
+    steps:
+      - uartcmd: uart UART0
+        extract: "\r\n(.*)\r\n\r\nOK\r\n"
+        extractKey: MODEM_REV
+        send: "AT+CGMR\r\n"
+  - ident: AT-T5
+    title: Retrieve IMEI
+    steps:
+      - uartcmd: uart UART0
+        extract: "\r\n(.*)\r\n\r\nOK\r\n"
+        extractKey: IMEI
+        send: "AT+CGSN\r\n"
