@@ -1,0 +1,35 @@
+#
+# Pr
+# Testing the CAN feature requires a CAN transceiver to be connected
+# in between the STM32F4 Discovery board, and the CAN interface of the PLT.
+#
+# - PB5: CAN_RX
+# - PB13: CAN_TX
+#
+title: "Program: CAN sample"
+suite:
+  - ident: DEV-T0
+    title: Setup
+    steps:
+      - command: power off
+      - command: canCfg CAN0 125000
+  - ident: DEV-T1
+    title: Identify DUT
+    steps:
+      - command: identify STM32F4_STLink
+  - ident: DEV-T2
+    title: Erase STM32F4 through USB ST-Link
+    steps:
+      - command: erase STM32F4_STLink
+  - ident: DEV-T3
+    title: Program STM32F4 though USB ST-Link
+    steps:
+      - command: program STM32F4_STLink none,zephyr-sample-CAN.hex,none
+  - ident: DEV-T4
+    title: Check if DUT is sending CAN frames
+    steps:
+      - command: canClear CAN0
+      - command: sleepms 500
+      # Match Change LED frame
+      - command: canMatch CAN0 0x10
+        extractKey: CAN_LED_MSG
