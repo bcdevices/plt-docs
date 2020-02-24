@@ -1,4 +1,4 @@
-# Test Plans for STM32F4DISCOVERY
+# Test Plans for LPCXpresso 11C24
 
 Example firmware and test plan targeting NXP's *LPC11C24 LPCXpresso devboard*.
 
