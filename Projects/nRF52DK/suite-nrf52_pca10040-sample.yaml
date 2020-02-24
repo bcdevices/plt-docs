@@ -1,0 +1,14 @@
+title: "Program: blinky sample"
+suite:
+  - ident: DEV-T1
+    title: Identify DUT
+    steps:
+      - command: identify nRF52_JLink
+  - ident: DEV-T2
+    title: Erase nRF52 through USB JLink
+    steps:
+      - command: erase nRF52_JLink
+  - ident: DEV-T3
+    title: Program nRF52 though USB JLink
+    steps:
+      - command: program nRF52_JLink none,zephyr-sample-blinky.hex,none
