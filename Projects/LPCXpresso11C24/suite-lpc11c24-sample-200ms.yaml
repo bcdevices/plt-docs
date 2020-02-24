@@ -1,0 +1,15 @@
+title: "NXP LPC11C24 blinky"
+suite:
+  - ident: ICT-T0
+    steps:
+      - command: power SWD off
+      - command: sleepms 100
+      - command: power SWD on
+  - ident: ICT-T1
+    title: Erase
+    steps:
+      - command: erase lpc11xx
+  - ident: ICT-T3
+    title: Program firmware
+    steps:
+      - command: program lpc11xx none,blinky-200ms.hex,none
