@@ -1,0 +1,18 @@
+title: "Program pn7xxxx"
+suite:
+  - ident: ICT-T0
+    title: Power on
+    steps:
+      - command: power SWD on
+#  - ident: ICT-T1
+#    title: Erase pn7742
+#    steps:
+#      - command: erase pn7462
+  - ident: ICT-T2
+    title: Program firmware over SWD
+    steps:
+      - command: program pn7462 PN7462AU_ex_phExMain.axf
+  - ident: ICT-T3
+    title: Power off
+    steps:
+      - command: power off
