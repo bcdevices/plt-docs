@@ -8,7 +8,7 @@ suite:
 - ident: ICT-T2
   title: Program CC1352
   steps:
-  - command: program CC1352 sensor_default_cc1352r1lp.hex,none,none
+  - command: program CC1352 sensor_default_cc1352r1lp.hex
 - ident: ICT-T3
   title: Power off
   steps:

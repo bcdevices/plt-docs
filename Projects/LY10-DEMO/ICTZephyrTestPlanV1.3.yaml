@@ -21,7 +21,7 @@ suite:
   - ident: ICT-004
     title: Program LY10-DEMO-BOARD nRF52 FW
     steps:
-      - command: program nRF52 none,ly10-zephyr-fw-0.1.2.hex,none
+      - command: program nRF52 ly10-zephyr-fw-0.1.2.hex
       - command: sleepms 2000
 
   - ident: ICT-005

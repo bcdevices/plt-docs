@@ -11,4 +11,4 @@ suite:
   - ident: DEV-T3
     title: Program nRF52 though USB JLink
     steps:
-      - command: program nRF52_JLink none,zephyr-sample-blinky-200ms.hex,none
+      - command: program nRF52_JLink zephyr-sample-blinky-200ms.hex

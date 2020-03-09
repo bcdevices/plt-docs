@@ -7,4 +7,4 @@ suite:
   - ident: ICT-T2
     title: Program Cortex-M33 through USB-attached JLink programmer
     steps:
-      - command: program nRF91_JLink none,zephyr-nrf9160-at_client.hex,none
+      - command: program nRF91_JLink zephyr-nrf9160-at_client.hex

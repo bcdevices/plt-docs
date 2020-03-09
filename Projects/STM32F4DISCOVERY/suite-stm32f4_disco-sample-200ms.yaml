@@ -11,4 +11,4 @@ suite:
   - ident: ICT-T3
     title: Program STM32F4 though USB ST-Link
     steps:
-      - command: program STM32f4_STLink none,zephyr-sample-blinky-200ms.hex,none
+      - command: program STM32f4_STLink zephyr-sample-blinky-200ms.hex

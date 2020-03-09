@@ -3,4 +3,4 @@ suite:
 - ident: ICT-T1
   title: Program ATmega168PB
   steps:
-  - command: program AVRATmega168PB_XPM 8led_1hz.hex,none,none
+  - command: program AVRATmega168PB_XPM 8led_1hz.hex
