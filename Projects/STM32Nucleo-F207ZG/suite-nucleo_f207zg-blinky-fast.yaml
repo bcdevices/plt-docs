@@ -11,4 +11,4 @@ suite:
   - ident: DEV-T3
     title: Program STM32F2 though USB ST-Link
     steps:
-      - command: program STM32F2_STLink none,zephyr-sample-blinky-fast.hex,none
+      - command: program STM32F2_STLink zephyr-sample-blinky-fast.hex

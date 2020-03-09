@@ -7,7 +7,7 @@ suite:
   - ident: ICT-T2
     title: Program STM32L4-IOT-BLE through USB ST-Link
     steps:
-      - command: program STM32L4_STLink none,STM32L4_IOT_HR.elf,none
+      - command: program STM32L4_STLink STM32L4_IOT_HR.elf
   - ident: ICT-T3
     title: Identify DUT
     steps:

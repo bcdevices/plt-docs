@@ -8,7 +8,7 @@ suite:
 - ident: ICT-T2
   title: Program ATmega168PB
   steps:
-  - command: program AVRATmega168PB_ISP 8led_1hz.hex,none,none
+  - command: program AVRATmega168PB_ISP 8led_1hz.hex
 - ident: ICT-T3
   title: Power off
   steps:

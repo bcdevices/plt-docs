@@ -12,7 +12,7 @@ suite:
   - ident: ICT-T2
     title: Program Cortex-M33 through PLT SWD interface
     steps:
-      - command: program nRF91 none,zephyr-nrf9160-at_client.hex,none
+      - command: program nRF91 zephyr-nrf9160-at_client.hex
   - ident: ICT-T3
     title: Power Off
     steps:

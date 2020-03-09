@@ -12,4 +12,4 @@ suite:
   - ident: ICT-T3
     title: Program firmware
     steps:
-      - command: program lpc11xx none,blinky-200ms.hex,none
+      - command: program lpc11xx blinky-200ms.hex

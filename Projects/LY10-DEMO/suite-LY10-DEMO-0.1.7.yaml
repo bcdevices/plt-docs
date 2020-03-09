@@ -15,7 +15,7 @@ suite:
   - ident: ICT-T3
     title: Program LY10-DEMO-BOARD FW nRF52 with FT2232H Mini Module
     steps:
-      - command: program nRF52 s132_nrf52_6.0.0_softdevice.hex,ly10-demo-fw-0.1.7.hex,none
+      - command: program nRF52 s132_nrf52_6.0.0_softdevice.hex,ly10-demo-fw-0.1.7.hex
   - ident: ICT-T4
     title: BLE discovery
     steps:

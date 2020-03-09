@@ -11,7 +11,7 @@ suite:
   - ident: ICT-T3
     title: Program nRF52 through USB JLink
     steps:
-      - command: program nRF52_JLink s132_nrf52_6.0.0_softdevice.hex,nrf52832_xxaa.hex,none
+      - command: program nRF52_JLink s132_nrf52_6.0.0_softdevice.hex,nrf52832_xxaa.hex
   - ident: ICT-T4
     title: BLE discovery
     steps:
