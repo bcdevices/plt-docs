@@ -1,0 +1,5 @@
+title: "psoc6 (SWD)"
+suite:
+- title: Program PSoC6 over SWD
+  steps:
+  - command: program psoc6 CE217637_BLE_Find_Me01.hex
