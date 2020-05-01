@@ -13,3 +13,5 @@
 - [STM32Nucleo-L432KC/](STM32Nucleo-L432KC/): Test plans for ST Nucleo L432KC board
 - [nRF52DK/](nRF52DK/): Test plans for Nordic's nRF52 DK development board
 - [nRF91DK/](nRF91DK/): Test plans for Nordic's nRF9160 DK development board
+- [PSoC4/](PSoC4/): Test plans for the Cypress PSoC 4 platform
+- [PSoC6/](PSoC6/): Test plans for the Cypress PSoC 6 platform
