@@ -2,6 +2,7 @@
 
 - [ATmega168P-Xplained-Mini/](ATmega168P-Xplained-Mini/): Test Plans for Atmel AVR ATmega168P/PB
 - [CC1352-Launchpad/](CC1352-Launchpad/): Test Plans for TI CC1352
+- [EFM32-STK3800/](EFM32-STK3800/): Test Plans for SiLabs EFM32-STK3800 Starter Kit
 - [ESP32-DevKitC/](ESP32-DevKitC/): Test Plans for Espressif ESP32-DevKitC modules
 - [GSM-Modem/](GSM-Modem/): Test Plans for GSM modems
 - [LPCXpresso11C24/](LPCXpresso11C24/): Example firmware and test plans for NXP's LPCXpresso 11C24 DEMO board

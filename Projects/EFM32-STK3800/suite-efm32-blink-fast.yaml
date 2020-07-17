@@ -1,0 +1,6 @@
+title: "Program: (fast) blinky sample"
+suite:
+- ident: ICT-T0
+  title: Program EFM32 though SWD
+  steps:
+  - command: program EFM32 STK3800_blink_fast.hex
