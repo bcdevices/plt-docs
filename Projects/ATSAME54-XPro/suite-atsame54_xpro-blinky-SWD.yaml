@@ -1,0 +1,12 @@
+title: "ATmel SAM E54 Xpro (SWD)"
+suite:
+- title: Power
+  steps:
+  - command: power off
+  - command: power SWD on
+- title: Erase Chip via SWD
+  steps:
+  - command: erase ATSAME5
+- title: Program via SWD
+  steps:
+  - command: program ATSAME5 zephyr-atsame54_xpro-sample-blinky-2.4.0.hex
