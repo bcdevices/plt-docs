@@ -1,0 +1,100 @@
+title: "ICT Demo Test Plan V1.3"
+suite:
+
+  - ident: ICT-001
+    title: Power up
+    steps:
+    - command: power SWD on
+    - command: sleepms 1000
+
+  - ident: ICT-002
+    title: Identify DUT
+    steps:
+      - command: identify nRF52
+      - command: sleepms 1000
+
+  - ident: ICT-003
+    title: Erase nRF52
+    steps:
+      - command: erase nRF52
+
+  - ident: ICT-004
+    title: Program LY10-DEMO-BOARD nRF52 FW
+    steps:
+      - command: program nRF52 s132_nrf52_6.0.0_softdevice.hex,ly10-demo-fw-0.1.8.hex
+      - command: sleepms 2000
+
+  - ident: ICT-005
+    title: Impedance Measurement
+    steps:
+      - command: mux 0 RATP02
+      - command: mux 1 RATP03
+      - command: mux 2 RA
+      - command: mux 3 RVREF
+      - command: short 0 2 set
+      - command: short 1 3 set
+      - command: measure impedance >-1Ohm # range for uncalibrated impedance measurement
+      - command: short 0 2 release
+      - command: short 1 3 release
+      - command: sleepms 1500
+
+  - ident: ICT-006
+    title: Measure BAT_SENSE TP5
+    steps: 
+      - command: mux 0 RATP05
+      - command: sleepms 25
+      - command: measure voltageMUX0 -20-20V #battery voltage, no battery 
+      - command: sleepms 25
+      - command: sleepms 1000
+
+  - ident: ICT-007
+    title: Measure Voltage at 5v switcher
+    steps: 
+      - command: mux 0 RATP01
+      - command: sleepms 25
+      - command: measure voltageMUX0 1.75-3.0V #~2.7V @ 5v switcher out voltage, no battery connected
+      - command: sleepms 25
+      - command: sleepms 1000
+
+  - ident: ICT-008
+    title: Measure Voltage at DC/DC REG OUT
+    steps: 
+      - command: mux 0 RATP03
+      - command: sleepms 25
+      - command: measure voltageMUX0 1.25-1.35V #Voltage at DC/DC REG OUT 1.3V nrf50 LDO
+      - command: sleepms 25
+      - command: sleepms 1000
+
+  - ident: ICT-009
+    title: Measure SWD_VDD Voltage
+    steps: 
+      - command: mux 0 RATP02
+      - command: sleepms 25
+      - command: measure voltageMUX0 3.25-3.35V #Voltage at DC/DC REG OUT
+      - command: sleepms 25
+      - command: sleepms 1000
+
+  - ident: ICT-010
+    title: Measure Potentiometer Voltage 
+    steps: 
+      - command: operator "Turn Potentiometer all the way CCW"
+      - command: mux 0 RATP04
+      - command: sleepms 25
+      - command: measure voltageMUX0 <0.1V #Voltage at DC/DC REG OUT
+      - command: sleepms 25
+      - command: operator "Turn Potentiometer all the way CW"
+      - command: sleepms 25
+      - command: measure voltageMUX0 3.2-3.35V #Voltage at DC/DC REG OUT
+      - command: sleepms 25
+
+  - ident: ICT-011
+    title: BLE discovery
+    steps:
+      - command: bledis %BLEMAC% 30  # Wait up to 30 seconds for BLE discovery to complete
+
+  - ident: ICT-012
+    title: Power down
+    steps:
+    - command: sleepms 2000
+    - command: power SWD off
+    - command: sleepms 500
