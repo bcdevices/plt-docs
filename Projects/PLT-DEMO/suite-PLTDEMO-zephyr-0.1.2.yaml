@@ -1,4 +1,4 @@
-title: "v0.1.8 (Green)"
+title: "PLT-DEMO Zephyr v0.1.2"
 suite:
   - ident: ICT-T0
     title: Power on
@@ -9,17 +9,17 @@ suite:
     steps:
       - command: identify nRF52
   - ident: ICT-T2
-    title: Erase nRF52 with FT2232H Mini Module
+    title: Erase nRF52
     steps:
       - command: erase nRF52
   - ident: ICT-T3
-    title: Program LY10-DEMO-BOARD FW nRF52 with FT2232H Mini Module
+    title: Program LY10-DEMO-BOARD FW
     steps:
-      - command: program nRF52 s132_nrf52_6.0.0_softdevice.hex,ly10-demo-fw-0.1.8.hex
+      - command: program nRF52 pltdemo-zephyr-fw-0.1.2.hex
   - ident: ICT-T4
     title: BLE discovery
     steps:
-      - command: bledis %BLEMAC% 30  # Wait up to 30 seconds for BLE discovery to complete
+      - command: bledis %BLEMAC% 5
   - ident: ICT-T5
     title: Power off
     steps:
