@@ -1,4 +1,4 @@
 # Example PLTcloud Projects
 
 - [PLT-DEMO/](PLT-DEMO/): Test Plans for the PLT-DEMO board ([historical](LY10-DEMO/))
-- [Boards/](PSoC6/): Test plans for various 3rd-party boards
+- [Boards/](Boards/): Test plans for various 3rd-party boards
