@@ -17,9 +17,9 @@ as the CMSIS-DAP programmer.
 Use a 10-lead 0.1" ribbon cable to connect the "SAME54 SWD DEBUG" connector
 of the SAME54 Xplained board with the ACC-DEBUG programmer.
 
-![image](images/img1.2.jpg)
+![image](images/img2.1.jpg)
 
-![image](images/img1.3.jpg)
+![image](images/img3.1.jpg)
 
 
 ## References
