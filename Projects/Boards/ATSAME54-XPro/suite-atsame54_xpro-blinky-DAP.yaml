@@ -6,6 +6,7 @@ suite:
 - title: Erase Chip via DAPlink
   steps:
   - command: erase ATSAME5_DAP
+  - command: sleepms 5000
 - title: Program via DAPlink
   steps:
   - command: program ATSAME5_DAP zephyr-atsame54_xpro-sample-blinky-2.4.0.hex
