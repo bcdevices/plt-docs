@@ -4,7 +4,7 @@ Example PLT test plan for TI's
 **CC1352R1 LaunchPad** evaluation kit.
 
 - [cc1352-program.yaml](cc1352-program.yaml): Program CC1352 over JTAG
-- `sensor_default_cc1352r1lp.hex`: Example CC1352 firmware, available from TI.
+- [cc1352r1_launchxl_zephyr_2.7.0_blinky.hex](cc1352r1_launchxl_zephyr_2.7.0_blinky.hex): Zephyr RTOS blinky sample for cc1352r1_launchxl
 
 ## PLT-200A connection
 
@@ -23,3 +23,5 @@ Example PLT test plan for TI's
 ## References
 
 - [LAUNCHXL-CC1352R1 SimpleLink™ Multi-Band CC1352R Wireless MCU LaunchPad™ Development Kit | TI.com](http://www.ti.com/tool/LAUNCHXL-CC1352R1)
+- [Zephyr RTOS Blinky Sample](https://docs.zephyrproject.org/latest/samples/basic/blinky/README.html)
+- [Zephyr RTOS CC1352R1 LaunchXL Support Information](https://docs.zephyrproject.org/latest/boards/arm/cc1352r1_launchxl/doc/index.html)
