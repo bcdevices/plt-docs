@@ -1,0 +1,33 @@
+title: "ESP32 Identify, Erase, Program via UART0"
+# PLT Connection:
+#
+# UART0_RXD - ESP32:TXD (GPIO1)
+# UART0_TXD - ESP32:RXD (GPIO3)
+# UART0_CTS - n.c.
+# UART0_RTS - ESP32:EN
+# UART0_VDD (3.3V) - ESP32:3V3
+# GND - ESP32:GND, ESP32:GPIO0
+suite:
+- ident: ICT-T1
+  title: Toggle UART0_VDD
+  steps:
+    # Toggle power to put DUT into programming mode.
+    - command: power UART0 on
+    - command: sleepms 100
+    - command: power UART0 off
+    - command: sleepms 100
+    - command: power UART0 on
+    - command: sleepms 100
+- ident: ICT-T2
+  title: Identify DUT
+  steps:
+  - command: identify ESP32_UART UART0
+- ident: ICT-T3
+  title: Program DUT
+  steps:
+  # Program bootloader, partition table, and binary.
+  - command: program ESP32_UART UART0 0x1000:esp32-wroom-32_bootloader.bin,0x8000:esp32-wroom-32_partitions_singleapp.bin,0x10000:esp32-wroom-32_hello_world_zephyr_2.7.0.bin
+- ident: ICT-T4
+  title: Power off
+  steps:
+  - command: power UART0 off
