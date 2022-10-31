@@ -1,0 +1,6 @@
+title: "Program NUCLEO-L152RE over SWD"
+suite:
+- steps:
+  - command: identify STM32L1
+  - command: erase STM32L1
+  - command: program STM32L1 zephyr-nucleo_l152re-blinky-3.2.0.hex
