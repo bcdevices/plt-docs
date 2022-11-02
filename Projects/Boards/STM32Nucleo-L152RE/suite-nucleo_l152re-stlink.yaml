@@ -1,6 +1,7 @@
 title: "Program NUCLEO-L152RE over STLink"
+# Note: The STM32L152RE is a Category 5 part. See STM RM0038, Section 1.5.
 suite:
 - steps:
-  - command: identify STM32L1_STLink
-  - command: erase STM32L1_STLink
-  - command: program STM32L1_STLink zephyr-nucleo_l152re-blinky-3.2.0.hex
+  - command: identify STM32L1_Cat456_STLink
+  - command: erase STM32L1_Cat456_STLink
+  - command: program STM32L1_Cat456_STLink zephyr-nucleo_l152re-blinky-3.2.0.hex
