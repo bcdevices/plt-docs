@@ -1,0 +1,15 @@
+title: "Program NUCLEO-H753 over USB-DFU"
+# Note: This plan requires the NUCLEO-H753 to be put into its ROM-based
+# bootloader. One way to do this is to pull the BOOT0 pin to 3v3. Then, the
+# `User USB` port (CN13) on the NUCLEO-H753 needs to be connected to the DUT
+# USB-C port on the rear of the PLT-300. Finally, the NUCLEO-H753 needs to be
+# powered by connecting its `USB PWR` port (CN1) to another PLT port.
+suite:
+- steps:
+  # USB-DFU uses the DUT USB-C port, the port needs to be on.
+  - command: usb power on
+  # Allow for usb device to connect
+  - command: sleepms 100
+  # Program DUT
+  - command: program USB-DFU zephyr-nucleo_h753zi-blinky-3.2.0.dfu
+    target: STM32H7

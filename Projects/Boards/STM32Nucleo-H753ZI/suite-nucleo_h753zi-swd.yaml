@@ -1,0 +1,4 @@
+title: "Program NUCLEO-H753 over SWD"
+suite:
+- steps:
+  - command: program STM32H7 zephyr-nucleo_h753zi-blinky-3.2.0.hex
