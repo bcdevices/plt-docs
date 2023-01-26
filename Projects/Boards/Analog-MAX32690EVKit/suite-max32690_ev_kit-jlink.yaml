@@ -1,0 +1,6 @@
+title: "Program MAX32690 EV Kit over J-Link"
+suite:
+- steps:
+  - command: identify MAX32690_JLink
+  - command: erase MAX32690_JLink
+  - command: program MAX32690_JLink maxim_sdk_tft_id.elf
