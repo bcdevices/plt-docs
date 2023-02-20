@@ -1,0 +1,14 @@
+title: "NUCLEO-G474RE Blinky, Built-In SWD"
+suite:
+  - ident: DEV-T1
+    title: Get STM32G4 unique ID using built-in SWD interface.
+    steps:
+      - command: identify STM32G4
+  - ident: DEV-T2
+    title: Erase STM32G4 using built-in SWD interface.
+    steps:
+      - command: erase STM32G4
+  - ident: DEV-T3
+    title: Program STM32G4 using built-in SWD interface.
+    steps:
+      - command: program STM32G4 zephyr-nucleo_g474re-blinky-3.2.0.hex

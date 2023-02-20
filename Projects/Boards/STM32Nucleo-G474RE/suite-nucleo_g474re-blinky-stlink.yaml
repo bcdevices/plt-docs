@@ -1,0 +1,14 @@
+title: "NUCLEO-G474RE Blinky, STLink via USB"
+suite:
+  - ident: DEV-T1
+    title: Get STM32G4 unique ID using STLink via USB.
+    steps:
+      - command: identify STM32G4_STLink
+  - ident: DEV-T2
+    title: Erase STM32G4 using STLink via USB.
+    steps:
+      - command: erase STM32G4_STLink
+  - ident: DEV-T3
+    title: Program STM32G4 using STLink via USB.
+    steps:
+      - command: program STM32G4_STLink zephyr-nucleo_g474re-blinky-3.2.0.hex
