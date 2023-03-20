@@ -14,19 +14,19 @@ license.
 
 ## Design Files
 
-- [PLT DEMO V2 R01 BOM 20210811.xls](PLT DEMO V2_R01 BOM 20210811.xls):
+- [PLT DEMO V2 R01 BOM 20210811.xls](./PLT DEMO V2_R01 BOM 20210811.xls):
 
   Bill of Materials (BOM)
 
-- [PLT Demo V2 R01.sch](PLT Demo V2 R01.sch):
+- [PLT Demo V2 R01.sch](./PLT Demo V2 R01.sch):
 
   Schematics (Eagle v9.6.2)
 
-- [PLT Demo V2 R01.brd](PLT Demo V2 R01.brd):
+- [PLT Demo V2 R01.brd](./PLT Demo V2 R01.brd):
 
   Board layout (Eagle v9.6.2)
 
-- [T10-00499-XX Gerber REV01 2021-08-13.zip](T10-00499-XX Gerber REV01_2021-08-13.zip):
+- [T10-00499-XX Gerber REV01 2021-08-13.zip](./T10-00499-XX Gerber REV01_2021-08-13.zip):
 
   Gerber, Drill and Assembly files
 
