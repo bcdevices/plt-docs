@@ -1,9 +1,10 @@
+---
 title: "Raspberry Pi Pico (USB-MSC)"
 suite:
-# Note: The Pico must be in the UF2 bootloader for this test plan.
-- title: Program Firmware
-  steps:
-  - command: usb storage mount pico
-    id: "2E8A:0003"
-  - command: usb storage write pico zephyr-rpi_pico-blinky-3.2.0.uf2
-  - command: usb storage unmount pico
+  # Note: The Pico must be in the UF2 bootloader for this test plan.
+  - title: Program Firmware
+    steps:
+      - command: usb storage mount pico
+        id: "2E8A:0003"
+      - command: usb storage write pico zephyr-rpi_pico-blinky-3.2.0.uf2
+      - command: usb storage unmount pico

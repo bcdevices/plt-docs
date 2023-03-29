@@ -1,12 +1,13 @@
+---
 title: "ATmel SAM E54 Xpro (DAP)"
 suite:
-- title: Power
-  steps:
-  - command: power off
-- title: Erase Chip via DAPlink
-  steps:
-  - command: erase ATSAME5_DAP
-  - command: sleepms 5000
-- title: Program via DAPlink
-  steps:
-  - command: program ATSAME5_DAP zephyr-atsame54_xpro-sample-blinky-2.4.0.hex
+  - title: Power
+    steps:
+      - command: power off
+  - title: Erase Chip via DAPlink
+    steps:
+      - command: erase ATSAME5_DAP
+      - command: sleepms 5000
+  - title: Program via DAPlink
+    steps:
+      - command: program ATSAME5_DAP zephyr-atsame54_xpro-sample-blinky-2.4.0.hex

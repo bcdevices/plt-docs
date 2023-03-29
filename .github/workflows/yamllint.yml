@@ -1,0 +1,29 @@
+# yamllint disable-line rule:truthy
+name: yamllint
+on: [push]
+jobs:
+  lintAllTheThings:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: yaml-lint
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          format: github
+          config_data: |
+            extends: default
+            ignore:
+              - '/vendor'
+              - '/internal/suite/testdata/yaml-error*.yaml'
+            rules:
+              document-start: disable
+              empty-lines:
+                level: warning
+              indentation: disable
+              line-length:
+                level: warning
+              new-line-at-end-of-file:
+                level: warning
+              trailing-spaces:
+                level: warning
+              truthy: disable

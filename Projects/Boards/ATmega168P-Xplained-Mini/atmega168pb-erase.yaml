@@ -1,15 +1,16 @@
+---
 title: "Erase ATmega168PB through ISP"
 suite:
-- ident: ICT-T1
-  title: Power ON
-  steps:
-  - command: power JTAG on
-  - command: sleepms 500
-- ident: ICT-T2
-  title: Erase ATmega168PB
-  steps:
-  - command: erase AVRATmega168PB_ISP
-- ident: ICT-T3
-  title: Power off
-  steps:
-  - command: power off
+  - ident: ICT-T1
+    title: Power ON
+    steps:
+      - command: power JTAG on
+      - command: sleepms 500
+  - ident: ICT-T2
+    title: Erase ATmega168PB
+    steps:
+      - command: erase AVRATmega168PB_ISP
+  - ident: ICT-T3
+    title: Power off
+    steps:
+      - command: power off

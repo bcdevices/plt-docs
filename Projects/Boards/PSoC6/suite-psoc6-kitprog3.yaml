@@ -1,5 +1,6 @@
+---
 title: "psoc6 (KitProg3)"
 suite:
-- title: Program PSoC6 though USB-attached KitProg3 programmer
-  steps:
-  - command: program psoc6_kp3 CE217637_BLE_Find_Me01.hex
+  - title: Program PSoC6 though USB-attached KitProg3 programmer
+    steps:
+      - command: program psoc6_kp3 CE217637_BLE_Find_Me01.hex

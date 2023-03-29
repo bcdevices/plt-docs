@@ -1,9 +1,10 @@
+---
 title: "CYCBLE-014008-BLE_DIS.hex"
 identPrefix: "ICT"
 suite:
-- title: Power
-  steps:
-  - command: power SWD on
-- title: Program PSoC4 over SWD
-  steps:
-  - command: program psoc4 CYCBLE-014008-BLE_DIS.hex
+  - title: Power
+    steps:
+      - command: power SWD on
+  - title: Program PSoC4 over SWD
+    steps:
+      - command: program psoc4 CYCBLE-014008-BLE_DIS.hex

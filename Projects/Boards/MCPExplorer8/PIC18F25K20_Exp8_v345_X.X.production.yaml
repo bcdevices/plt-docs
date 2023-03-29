@@ -1,5 +1,6 @@
+---
 title: Program PIC18F25K20
 suite:
-- steps:
-  - command: power JTAG on
-  - command: program PIC18F25K20 PIC18F25K20_Exp8_v345_X.X.production.hex
+  - steps:
+      - command: power JTAG on
+      - command: program PIC18F25K20 PIC18F25K20_Exp8_v345_X.X.production.hex
