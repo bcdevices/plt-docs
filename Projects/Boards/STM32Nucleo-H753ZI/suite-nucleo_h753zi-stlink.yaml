@@ -1,4 +1,5 @@
+---
 title: "Program NUCLEO-H753 over STLink"
 suite:
-- steps:
-  - command: program STM32H7_STLink zephyr-nucleo_h753zi-blinky-3.2.0.hex
+  - steps:
+      - command: program STM32H7_STLink zephyr-nucleo_h753zi-blinky-3.2.0.hex

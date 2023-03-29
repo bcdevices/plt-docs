@@ -1,15 +1,16 @@
+---
 title: "Program CC1352R1 through JTAG"
 suite:
-- ident: ICT-T1
-  title: Power ON
-  steps:
-  - command: power JTAG on
-  - command: sleepms 500
-- ident: ICT-T2
-  title: Program CC1352
-  steps:
-  - command: program CC1352 cc1352r1_launchxl_zephyr_2.7.0_blinky.hex
-- ident: ICT-T3
-  title: Power off
-  steps:
-  - command: power off
+  - ident: ICT-T1
+    title: Power ON
+    steps:
+      - command: power JTAG on
+      - command: sleepms 500
+  - ident: ICT-T2
+    title: Program CC1352
+    steps:
+      - command: program CC1352 cc1352r1_launchxl_zephyr_2.7.0_blinky.hex
+  - ident: ICT-T3
+    title: Power off
+    steps:
+      - command: power off

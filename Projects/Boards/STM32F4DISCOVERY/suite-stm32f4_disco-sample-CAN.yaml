@@ -1,5 +1,5 @@
+---
 #
-# Pr
 # Testing the CAN feature requires a CAN transceiver to be connected
 # in between the STM32F4 Discovery board, and the CAN interface of the PLT.
 #

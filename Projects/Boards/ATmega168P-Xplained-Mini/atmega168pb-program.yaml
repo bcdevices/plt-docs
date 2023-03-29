@@ -1,15 +1,16 @@
+---
 title: "Program ATmega168PB through ISP"
 suite:
-- ident: ICT-T1
-  title: Power ON
-  steps:
-  - command: power JTAG on
-  - command: sleepms 500
-- ident: ICT-T2
-  title: Program ATmega168PB
-  steps:
-  - command: program AVRATmega168PB_ISP 8led_1hz.hex
-- ident: ICT-T3
-  title: Power off
-  steps:
-  - command: power off
+  - ident: ICT-T1
+    title: Power ON
+    steps:
+      - command: power JTAG on
+      - command: sleepms 500
+  - ident: ICT-T2
+    title: Program ATmega168PB
+    steps:
+      - command: program AVRATmega168PB_ISP 8led_1hz.hex
+  - ident: ICT-T3
+    title: Power off
+    steps:
+      - command: power off

@@ -1,13 +1,14 @@
+---
 title: "Program pn7xxxx"
 suite:
   - ident: ICT-T0
     title: Power on
     steps:
       - command: power SWD on
-#  - ident: ICT-T1
-#    title: Erase pn7742
-#    steps:
-#      - command: erase pn7462
+  # - ident: ICT-T1
+  #   title: Erase pn7742
+  #   steps:
+  #     - command: erase pn7462
   - ident: ICT-T2
     title: Program firmware over SWD
     steps:

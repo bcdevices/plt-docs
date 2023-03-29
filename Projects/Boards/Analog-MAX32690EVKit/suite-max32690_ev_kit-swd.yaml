@@ -1,6 +1,7 @@
+---
 title: "Program MAX32690 EV Kit over SWD"
 suite:
-- steps:
-  - command: identify MAX32690
-  - command: erase MAX32690
-  - command: program STM32L1 maxim_sdk_tft_id.elf
+  - steps:
+      - command: identify MAX32690
+      - command: erase MAX32690
+      - command: program STM32L1 maxim_sdk_tft_id.elf

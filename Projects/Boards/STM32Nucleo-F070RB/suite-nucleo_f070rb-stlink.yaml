@@ -1,6 +1,7 @@
+---
 title: "Program NUCLEO-F070RB over STLink"
 suite:
-- steps:
-  - command: identify STM32F0_STLink
-  - command: erase STM32F0_STLink
-  - command: program STM32F0_STLink zephyr-nucleo_f070rb-blinky-3.2.0.hex
+  - steps:
+      - command: identify STM32F0_STLink
+      - command: erase STM32F0_STLink
+      - command: program STM32F0_STLink zephyr-nucleo_f070rb-blinky-3.2.0.hex

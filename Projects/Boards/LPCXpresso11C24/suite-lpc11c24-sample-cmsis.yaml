@@ -1,11 +1,12 @@
+---
 title: "Program NXP LPC11C24 blinky over LPC Link2 CMSIS-DAP programmer"
 suite:
-- title: Power
-  steps:
-  - command: power off
-  - command: power 3V3 on
-- title: Program firmware
-  steps:
-  - command: program cmsis blinky.hex
-    pack: Keil.LPC1100_DFP.1.4.0.pack
-    target: LPC11C24FBD48/301
+  - title: Power
+    steps:
+      - command: power off
+      - command: power 3V3 on
+  - title: Program firmware
+    steps:
+      - command: program cmsis blinky.hex
+        pack: Keil.LPC1100_DFP.1.4.0.pack
+        target: LPC11C24FBD48/301
