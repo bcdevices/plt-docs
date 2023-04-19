@@ -1,0 +1,7 @@
+title: "SAM G55 XPLAINED PRO, CMSIS-DAP"
+suite:
+- title: "Program"
+  steps:
+  # Note: The ATSAMG5_DAP target does not have a separate erase command.
+  # The MCU is always erased as part of the program step.
+  - command: program ATSAMG5_DAP atsamg55_xpro-blinky.hex
