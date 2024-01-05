@@ -1,16 +1,11 @@
 ---
-title: "Program CC1352R1 through JTAG"
+title: "Program TI LaunchPad CC1352R1 using CMSIS-DAP"
 suite:
-  - ident: ICT-T1
-    title: Power ON
+  - ident: IDENTIFY
+    title: Retrieve unique ID from CC1352
     steps:
-      - command: power JTAG on
-      - command: sleepms 500
-  - ident: ICT-T2
-    title: Program CC1352
+      - command: identify CC1352_DAP
+  - ident: PROGRAM
+    title: Program CC1352 using CMSIS-DAP
     steps:
-      - command: program CC1352 cc1352r1_launchxl_zephyr_2.7.0_blinky.hex
-  - ident: ICT-T3
-    title: Power off
-    steps:
-      - command: power off
+      - command: program CC1352_DAP cc1352r1_launchxl_zephyr_2.7.0_blinky.hex
